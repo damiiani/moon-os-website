@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Content from '../../components/Content';
+import Footer from '../../components/Footer';
 import Navbar from '../../components/Navbar';
 
 import './styles.css';
@@ -15,6 +16,7 @@ function Home() {
         tem como principal característica a navegação entre janelas similar ao famoso editor
         de texto Vim e é gratuito e open-source"
       />
+      <Footer />
     </div>
   );
 }

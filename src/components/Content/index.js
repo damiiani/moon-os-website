@@ -8,9 +8,9 @@ function Content(props) {
 
   return (
     <div className="content">
-      <h1 className="title">{title}</h1>
+      <h1 className="content-title">{title}</h1>
 
-      <p className="text">{text}</p>
+      <p className="content-text">{text}</p>
     </div>
   );
 }
@@ -21,8 +21,8 @@ Content.propTypes = {
 };
 
 Content.defaultProps = {
-  title: '',
-  text: '',
+  title: 'Template',
+  text: 'Template',
 };
 
 export default Content;
